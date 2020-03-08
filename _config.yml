@@ -1,20 +1,20 @@
 # Site settings
-title: "Sabrina + Vittorio"
+title: "Tim + Rachel"
 description: |
     Villa Claudia, Teano
 
     28 Maggio 2019
 owner: Vittorio Monaco
-first_published: 2018
-email: vittorio.monaco1@gmail.com
+first_published: 2020
+email: tsmacdonald@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "www.sabrinaevittoriosposi.it" # the base hostname & protocol for your site
+url: "www.timchel.com" # the base hostname & protocol for your site
 
 # Google analytics
-google_analytics: "UA-40721189-2"
+google_analytics: "UA-160035647-1"
 
 social:
-  github: https://github.com/vittoriom/wedding-site
+  github: https://github.com/tsmacdonald/timchel.com
 
 # Build settings
 markdown: kramdown
