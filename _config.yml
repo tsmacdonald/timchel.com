@@ -1,10 +1,10 @@
 # Site settings
 title: "Tim + Rachel"
 description: |
-    Villa Claudia, Teano
+    Sewickley, PA
 
-    28 Maggio 2019
-owner: Vittorio Monaco
+    September 12, 2002
+owner: Tim Macdonald
 first_published: 2020
 email: tsmacdonald@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -12,9 +12,6 @@ url: "www.timchel.com" # the base hostname & protocol for your site
 
 # Google analytics
 google_analytics: "UA-160035647-1"
-
-social:
-  github: https://github.com/tsmacdonald/timchel.com
 
 # Build settings
 markdown: kramdown
