@@ -1,13 +1,13 @@
 ---
 layout: landing
 ---
-
 <section id="banner">
   <div class="inner">
     <h2>{{ site.title }}</h2>
     <p>{{ site.description | markdownify }}</p>
+    <p id="countdown">lol jk broken</p>
   </div>
-  <a href="#intro" class="more scrolly">Details</a>
+  <a href="#details" class="more scrolly">Details</a>
 </section>
 
 <section id="details" class="wrapper style1 special">
@@ -18,6 +18,11 @@ layout: landing
 {% include sections/couple.html %}
 </section>
 
-<section id="venue" class="wrapper alt style2">
-{% include sections/venue.html %}
+<section id="registry" class="wrapper alt style2">
+{% include sections/registry.html %}
 </section>
+
+<section id="guestbook" class="wrapper alt style2">
+{% include sections/guestbook.html %}
+</section>
+
