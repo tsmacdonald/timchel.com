@@ -32,23 +32,3 @@
   gtag('config', 'UA-40721189-2');
 </script>
 {% endif %}
-<script>
-  function setCountdown() {
-    console.log("I'm trying!");
-    const el = document.getElementById("countdown");
-    const weddingDate = 'September 12 2020 00:00:01 GMT-0400';
-    const msInDay = 1000 * 60 * 60 * 24;
-    var daysLeft = Math.floor((Date.parse(weddingDate) - Date.parse(new Date()))/msInDay) + 1;
-    if(daysLeft == 0) {
-      el.innerHTML = "Today!"
-    }
-    else if(daysLeft == 1) {
-      el.innerHTML = "Tomorrow!"
-    }
-    else if(daysLeft > 0) {
-      el.innerHTML = daysLeft + " days to go!"
-    }
-  }
-  console.log("Adding listener");
-  document.addEventListener("DOMContentLoaded", setCountdown);
-</script>
